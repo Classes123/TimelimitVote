@@ -1,0 +1,34 @@
+"Phrases"
+{
+    "prefix"
+    {
+        "en"        "{green}[TLV]{default}"
+        "ru"        "{green}[TLV]{default}"
+    }
+
+    "menu_title"
+    {
+        "en"        "Select map timelimit:\n "
+        "ru"        "Выберите длительность карты:\n "
+    }
+
+    "minutes"
+    {
+        "en"        "minutes"
+        "ru"        "минyт"
+    }
+
+    "player_x_chose_y_minutes"
+    {
+        "#format"   "{1:s},{2:s}"
+        "en"        "Player {green}{1}{default} chose {team}{2}{default} minutes!"
+        "ru"        "Игрок {green}{1}{default} выбрал {team}{2}{default} минут!"
+    }
+
+    "timelimit_has_been_changed_to_x_minutes"
+    {
+        "#format"   "{1:.2f}" 
+        "en"        "Voting is over. Map timelimit - {team}{1}{default} minutes."
+        "ru"        "Голосование завершено. Длительность карты - {team}{1}{default} минут."
+    }
+}
